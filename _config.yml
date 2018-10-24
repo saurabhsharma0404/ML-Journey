@@ -1,8 +1,4 @@
-theme: cayman
+theme: jekyll-theme-cayman
 
 title: ML Journey
 description: 
-
-# SITE CONFIGURATION
-baseurl: ""
-url: "https://saurabhsharma0404.github.io/ishan.github.io"
