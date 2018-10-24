@@ -1,4 +1,5 @@
 theme: jekyll-theme-cayman
 
-title: ML Journey
-description: 
+# SITE CONFIGURATION
+baseurl: ""
+
