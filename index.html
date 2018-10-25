@@ -3,9 +3,9 @@ layout: default
 ---
 <body>
   <b>K Nearest Neighbors Algorithm</b>
-    <p> KNN is a simple, comprehensible yet powerful tool for solving supervised learning problems. 
-      In statistics, KNN is a great alternative to Kernel density estimators.
-      KNN technique for density estimation employs a fixed value of K to determine the density <i>p(x)</i>, where x is the new observation, at avolume of region containing the observation falling under a class. 
+    <p> KNN is a simple, comprehensible yet powerful tool for solving supervised learning problems.
       The value of K plays an important role in the accuracy of this algorithm.
-      I can going to separat two things KNN goes through the whole dataset and computes the distance(euclidean, manhattan etc.) between each new observation and the training observations.</p>
+      To classify a new observation <i>x</i>, first a sphere is drawn centered at <i>x</i> in a space(euclidean, manhattan etc.)
+      containing <i>K</i> observations. Then, bayes rule is applied to ascertain which class does the new observation belongs to. 
+      each new observation and the training observations.</p>
 </body>
